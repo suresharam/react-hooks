@@ -2,6 +2,7 @@ import State from './components/State';
 import Effect from './components/Effect';
 
 import './App.css';
+import Context from './components/Context';
 
 function App() {
   return (
@@ -11,6 +12,9 @@ function App() {
 
       <Effect />
       <hr/>
+
+      <Context />
+      <hr />
     </div>
   );
 }
