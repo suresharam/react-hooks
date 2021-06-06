@@ -5,6 +5,7 @@ import Ref from "./components/Ref";
 import Reducer from "./components/Reducer";
 
 import "./App.css";
+import Memo from "./components/Memo";
 
 function App() {
   return (
@@ -22,6 +23,10 @@ function App() {
       <hr />
 
       <Reducer />
+      <hr />
+
+      <Memo />
+      <hr />
     </div>
   );
 }
