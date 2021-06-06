@@ -1,8 +1,9 @@
-import State from './components/State';
-import Effect from './components/Effect';
+import State from "./components/State";
+import Effect from "./components/Effect";
 
-import './App.css';
-import Context from './components/Context';
+import "./App.css";
+import Context from "./components/Context";
+import Ref from "./components/Ref";
 
 function App() {
   return (
@@ -11,9 +12,12 @@ function App() {
       <hr />
 
       <Effect />
-      <hr/>
+      <hr />
 
       <Context />
+      <hr />
+
+      <Ref />
       <hr />
     </div>
   );
