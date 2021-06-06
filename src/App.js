@@ -1,9 +1,10 @@
 import State from "./components/State";
 import Effect from "./components/Effect";
-
-import "./App.css";
 import Context from "./components/Context";
 import Ref from "./components/Ref";
+import Reducer from "./components/Reducer";
+
+import "./App.css";
 
 function App() {
   return (
@@ -19,6 +20,8 @@ function App() {
 
       <Ref />
       <hr />
+
+      <Reducer />
     </div>
   );
 }
