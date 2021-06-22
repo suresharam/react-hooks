@@ -6,9 +6,10 @@ import Reducer from "./components/Reducer";
 import Memo from "./components/Memo";
 import Callback from "./components/Callback";
 import LayoutEffect from "./components/LayoutEffect";
+import ImperativeHandle from "./components/ImperativeHandle";
+import DebugValue from "./components/DebugValue";
 
 import "./App.css";
-import ImperativeHandle from "./components/ImperativeHandle";
 
 function App() {
   return (
@@ -38,6 +39,9 @@ function App() {
       <hr />
 
       <ImperativeHandle />
+      <hr />
+
+      <DebugValue />
       <hr />
     </div>
   );
