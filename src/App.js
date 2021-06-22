@@ -8,6 +8,7 @@ import Callback from "./components/Callback";
 import LayoutEffect from "./components/LayoutEffect";
 
 import "./App.css";
+import ImperativeHandle from "./components/ImperativeHandle";
 
 function App() {
   return (
@@ -34,6 +35,9 @@ function App() {
       <hr />
 
       <LayoutEffect />
+      <hr />
+
+      <ImperativeHandle />
       <hr />
     </div>
   );
