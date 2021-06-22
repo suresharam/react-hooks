@@ -6,6 +6,7 @@ import Reducer from "./components/Reducer";
 
 import "./App.css";
 import Memo from "./components/Memo";
+import Callback from "./components/Callback";
 
 function App() {
   return (
@@ -26,6 +27,9 @@ function App() {
       <hr />
 
       <Memo />
+      <hr />
+
+      <Callback />
       <hr />
     </div>
   );
