@@ -3,10 +3,11 @@ import Effect from "./components/Effect";
 import Context from "./components/Context";
 import Ref from "./components/Ref";
 import Reducer from "./components/Reducer";
-
-import "./App.css";
 import Memo from "./components/Memo";
 import Callback from "./components/Callback";
+import LayoutEffect from "./components/LayoutEffect";
+
+import "./App.css";
 
 function App() {
   return (
@@ -30,6 +31,9 @@ function App() {
       <hr />
 
       <Callback />
+      <hr />
+
+      <LayoutEffect />
       <hr />
     </div>
   );
